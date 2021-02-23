@@ -1,0 +1,13 @@
+.skill_list .opened, .skill_list .closed{   
+  transition: 1s;
+padding-top: 15px;}
+
+.skill_list .opened{
+max-height: 385px;
+overflow: auto;
+}
+
+.skill_list .closed{
+display: none;
+}  
+

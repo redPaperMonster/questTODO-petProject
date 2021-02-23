@@ -1,0 +1,39 @@
+.quest_wrapper {
+  display: grid;
+  grid-template-areas:
+  "description description description"
+  "items items items"
+  "info  info button"
+  "skills skills .";
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 1fr 200px 1fr 200px;
+    grid-gap: 0px;
+    padding-left: 10px;
+}
+
+  
+.quest_wrapper__descr {
+  grid-area: description;
+}
+
+.quest_wrapper__quest_info {
+  grid-area: info;
+  padding-top: 15px;
+  }
+
+  .quest_wrapper__items {
+    grid-area: items;
+    max-height: 200px;
+    margin-right: 48px;
+    overflow-y: auto;
+  }
+  .quest_wrapper__redact_button {
+    grid-area: button;
+    justify-self: end;
+    align-self:  end;   
+     margin-right: 68px;
+    }
+  .quest_wrapper__used_skills {
+      grid-area: skills;
+padding-top: 30px;
+      }

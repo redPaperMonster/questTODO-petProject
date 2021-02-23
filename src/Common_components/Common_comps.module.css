@@ -1,0 +1,24 @@
+.progress_bar {
+
+    height: 15px;
+    width: 50%;
+    border-radius: 50px;
+    border: 1px solid black;
+  display: inline-block;
+  z-index: 1;
+  }
+  
+  .filler {
+    background: gold;
+    height: 100%;
+    border-radius: inherit;
+    transition: width .2s ease-in;
+  }
+
+  .pb_exp {
+    display: inline-block;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  

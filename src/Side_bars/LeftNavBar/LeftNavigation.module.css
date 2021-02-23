@@ -1,0 +1,41 @@
+.left_nav {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: auto;
+    color: red;
+    
+}
+.div_grid__hero_info {
+padding: 6px 0;
+}
+.menu__list {
+    list-style: none;
+  }
+
+.widget-list a:before {
+    content: "\2014";
+    margin-right: 14px;
+  }
+  
+.menu__list li a {
+    text-decoration: none;
+    outline: none;
+    display: block;
+    padding: 6px 0; 
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: white;
+    transition: .3s linear;
+  }
+
+  .div_grid__hero_info h4 {
+margin: 5px;
+    color: white;
+  }
+
+  .active_button {
+    color: goldenrod !important;
+  }

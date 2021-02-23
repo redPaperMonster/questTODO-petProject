@@ -1,0 +1,30 @@
+.div_grid {
+  display: grid;
+  grid-template-areas:
+  "left_nav center_content right_nav";
+    grid-template-columns: 3fr 10fr 5fr;
+    grid-gap: 0px;
+}
+
+  
+.div_grid__center {
+  grid-area: center_content;
+
+}
+
+.div_grid__leftnav {
+  grid-area: left_nav;
+  min-width: 200px;
+  }
+
+  .div_grid__rightnav {
+    grid-area: right_nav;
+    background-color: cyan;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: auto;
+    color: red;
+  }
